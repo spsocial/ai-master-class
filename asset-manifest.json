@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ai-master-class/static/css/main.551816ac.css",
-    "main.js": "/ai-master-class/static/js/main.0ca54dd6.js",
+    "main.js": "/ai-master-class/static/js/main.654e228c.js",
     "index.html": "/ai-master-class/index.html",
     "main.551816ac.css.map": "/ai-master-class/static/css/main.551816ac.css.map",
-    "main.0ca54dd6.js.map": "/ai-master-class/static/js/main.0ca54dd6.js.map"
+    "main.654e228c.js.map": "/ai-master-class/static/js/main.654e228c.js.map"
   },
   "entrypoints": [
     "static/css/main.551816ac.css",
-    "static/js/main.0ca54dd6.js"
+    "static/js/main.654e228c.js"
   ]
 }
