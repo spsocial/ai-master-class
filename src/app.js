@@ -84,6 +84,377 @@ Modern Bangkok office at golden hour
       }
     },
     {
+      id: 'camera-techniques',
+      title: '🎥 Professional Camera Techniques',
+      icon: <Camera className="w-5 h-5" />,
+      description: 'เทคนิคมุมกล้องระดับ Hollywood สำหรับ AI',
+      content: {
+        overview: 'เรียนรู้เทคนิคการถ่ายทำระดับมืออาชีพ 6 เทคนิคหลัก พร้อมคำศัพท์ที่ใช้ในวงการภาพยนตร์ นำไปใช้กับ Veo 3, Runway, Pika Labs และ AI Video tools อื่นๆ ได้ทันที',
+        topics: [
+          '6 เทคนิคมุมกล้องหลักที่ต้องรู้',
+          'Camera Movement แบบต่างๆ',
+          'Camera Angles ทุกมุมมอง',
+          'Visual Style Keywords',
+          'วิธี Mix & Match เทคนิค',
+          'ตัวอย่าง Prompt สำเร็จรูป'
+        ],
+        examples: [
+          { type: 'code', text: `🎬 6 เทคนิคมุมกล้องหลักสำหรับ AI Video
+
+1. 🔄 Orbit Shot (ออร์-บิท-ช็อต)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คืออะไร: กล้องเคลื่อนที่เป็นวงกลม "โคจร" รอบๆ วัตถุ 360 องศา
+เหมาะกับ: Product showcase, Character reveal, 360 view
+วิธีใช้: "orbit shot of [subject], smooth 360 degree rotation"
+ตัวอย่าง: "orbit shot of luxury watch on pedestal, golden hour lighting"
+
+2. 🔍 Extreme Close-Up (เอ็กซ์-ทรีม-โคลส-อัป) 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คืออะไร: ถ่ายภาพระยะใกล้สุดๆ เน้นรายละเอียดเล็กๆ
+เหมาะกับ: Texture, Logo, Quality details, Emotion
+วิธีใช้: "extreme close-up on [detail], macro lens, shallow DOF"
+ตัวอย่าง: "extreme close-up on diamond ring, light refraction visible"
+
+3. 🎥 Gliding/Dolly Shot (ไกลด์-ดิ้ง/ดอล-ลี่-ช็อต)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คืออะไร: กล้องเคลื่อนที่ราบรื่นเหมือนอยู่บนราง
+เหมาะกับ: Luxury feel, Smooth reveal, Following action
+วิธีใช้: "smooth dolly shot [direction], gliding movement"
+ตัวอย่าง: "dolly in towards model, smooth gliding motion"
+
+4. ⏱️ Slow-Motion (สโลว์-โม-ชั่น)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คืออะไร: ภาพเคลื่อนไหวช้ากว่าปกติ เน้นความสวยงาม
+เหมาะกับ: Water splash, Hair flow, Explosion, Dramatic moments
+วิธีใช้: "[action] in slow-motion, 120fps"
+ตัวอย่าง: "pouring honey in extreme slow-motion, 240fps"
+
+5. 🦸 Heroic Shot (ฮี-โร-อิค-ช็อต)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คืออะไร: มุมกล้องที่ทำให้ดูยิ่งใหญ่ สง่างาม
+เหมาะกับ: Product glory, Power pose, Final shot
+วิธีใช้: "heroic low-angle shot of [subject], dramatic lighting"
+ตัวอย่าง: "heroic shot of perfume bottle, backlit with golden rays"
+
+6. 🎞️ Cinematic Montage (ซิ-เน-มา-ติค-มอน-ทาจ)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คืออะไร: รวมหลาย shots ตัดต่อเข้าด้วยกันอย่างลื่นไหล
+เหมาะกับ: Dynamic showcase, Story progression, Energy
+วิธีใช้: "cinematic montage of [subject], dynamic cuts"
+ตัวอย่าง: "fast-paced montage of coffee making process"` },
+          { type: 'code', text: `📐 Camera Angles & Movement Dictionary
+
+🎯 CAMERA MOVEMENT (การเคลื่อนกล้อง)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Pan - หมุนกล้องซ้าย-ขวา (แนวนอน)
+• Tilt - หมุนกล้องขึ้น-ลง (แนวตั้ง)
+• Zoom - ซูมเข้า-ออก
+• Dolly - เคลื่อนกล้องเข้า-ออกจากวัตถุ
+• Truck/Track - เคลื่อนกล้องไปด้านข้าง
+• Crane/Jib - กล้องเคลื่อนขึ้น-ลงแบบเครน
+• Handheld - กล้องมือ มีการสั่นเบาๆ
+• Steadicam - กล้องเคลื่อนที่แต่นิ่งมาก
+
+📸 CAMERA ANGLES (มุมกล้อง)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Eye Level - ระดับสายตา (ปกติ)
+• High Angle - มุมสูง มองลงมา
+• Low Angle - มุมต่ำ มองขึ้นไป
+• Bird's Eye View - มองจากด้านบนตรงๆ
+• Worm's Eye View - มองจากด้านล่างสุด
+• Dutch Angle - กล้องเอียง (สร้างความไม่สมดุล)
+• Over-the-Shoulder (OTS) - ข้ามไหล่
+• Point of View (POV) - มุมมองสายตาตัวละคร
+
+🎨 SHOT SIZES (ขนาดภาพ)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Extreme Wide Shot (EWS) - ไกลมากๆ
+• Wide Shot (WS) - ภาพกว้าง
+• Medium Wide Shot (MWS) - กว้างปานกลาง
+• Medium Shot (MS) - ระยะกลาง
+• Medium Close-Up (MCU) - ใกล้ปานกลาง
+• Close-Up (CU) - ระยะใกล้
+• Extreme Close-Up (ECU) - ใกล้มากๆ` },
+          { type: 'code', text: `🎨 Visual Style Keywords สำหรับ AI
+
+💡 LIGHTING STYLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Cinematic lighting - แสงแบบภาพยนตร์
+• Moody atmosphere - บรรยากาศลึกลับ
+• High-contrast - แสงเงาตัดกันชัด
+• Soft diffused light - แสงนุ่มกระจาย
+• Dramatic shadows - เงาดราม่า
+• Golden hour - แสงทอง (เช้า/เย็น)
+• Blue hour - แสงน้ำเงิน (ก่อนพระอาทิตย์ขึ้น/หลังตก)
+• Rim lighting - แสงขอบ
+• Backlit - แสงย้อน
+
+🎬 CINEMATIC TERMS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Depth of field - ระยะชัดลึก
+• Shallow DOF - โฟกัสตื้น (พื้นหลังเบลอ)
+• Deep focus - โฟกัสลึก (ชัดทั้งภาพ)
+• Bokeh - วงกลมเบลอสวยๆ
+• Lens flare - แสงแฟลร์
+• Motion blur - ภาพเบลอจากการเคลื่อนไหว
+• Rack focus - เปลี่ยนโฟกัส
+• Pull focus - ดึงโฟกัส
+
+🎭 MOOD & ATMOSPHERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Epic - ยิ่งใหญ่
+• Intimate - ใกล้ชิด
+• Mysterious - ลึกลับ
+• Dreamy - ฝันๆ
+• Gritty - หยาบกร้าน
+• Ethereal - เหนือจริง
+• Noir - มืดทะมึน
+• Vibrant - สดใส` },
+          { type: 'code', text: `🚀 Mix & Match Techniques - สูตรสำเร็จ
+
+📦 PRODUCT SHOWCASE FORMULA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"Start with orbit shot revealing product +
+extreme close-up on logo detail +
+slow-motion liquid/particle effects +
+end with heroic low-angle shot"
+
+ตัวอย่าง Prompt:
+"Orbit shot around luxury perfume bottle on marble pedestal,
+transitioning to extreme close-up on crystal cap with light
+refraction. Cut to slow-motion mist particles floating in air,
+120fps. Final heroic shot from low angle, dramatic backlighting,
+shallow depth of field with bokeh background"
+
+🎬 DYNAMIC ACTION FORMULA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"Handheld following shot +
+quick pan to reveal +
+slow-motion impact moment +
+wide establishing shot"
+
+ตัวอย่าง Prompt:
+"Handheld tracking shot following athlete running, dynamic
+camera shake. Quick pan right revealing finish line ahead.
+Slow-motion 240fps as runner breaks through ribbon. Pull
+back to wide shot showing cheering crowd, golden hour lighting"
+
+✨ LUXURY/PREMIUM FORMULA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"Smooth dolly in +
+selective focus details +
+gliding orbit shot +
+elegant slow reveal"
+
+ตัวอย่าง Prompt:
+"Slow dolly in towards luxury watch, shallow depth of field.
+Rack focus from background to watch face detail. Smooth
+gliding orbit shot with rim lighting. Elegant tilt up
+revealing full product against black velvet background"` },
+          { type: 'tip', text: '💡 Pro Tip: ใช้คำว่า "cinematic" นำหน้า prompt เพื่อให้ได้คุณภาพแบบภาพยนตร์ เช่น "cinematic orbit shot"' },
+          { type: 'warning', text: '⚠️ หลีกเลี่ยงการใช้เทคนิคมากเกินไปใน shot เดียว ควรเลือก 2-3 เทคนิคที่เข้ากันได้ดี' },
+          { type: 'tools', text: '🔗 ใช้เทคนิคเหล่านี้ได้กับ: Veo 3, Runway, Pika Labs, Stable Video Diffusion และ AI video tools อื่นๆ' }
+        ]
+      }
+    },
+    {
+      id: 'consistency-techniques',
+      title: '🎯 Character & Product Consistency',
+      icon: <Target className="w-5 h-5" />,
+      description: 'เทคนิคล็อคหน้าตัวละครและสินค้าให้เหมือนเดิมทุกคลิป',
+      content: {
+        overview: 'เรียนรู้เทคนิคระดับเทพที่มือโปรใช้ในการ "ล็อค" หน้าตาตัวละครและสินค้าให้เหมือนเดิมในทุกๆ คลิป ตั้งแต่การสร้าง Character Sheet ไปจนถึงการใช้ Image Reference',
+        topics: [
+          'การสร้าง Character Sheet แบบมืออาชีพ',
+          'เทคนิคการตั้งชื่อเพื่อความต่อเนื่อง',
+          'การล็อคฉากและเสื้อผ้า',
+          'การใช้ Image Reference (ท่าไม้ตาย)',
+          'Workflow ระดับโปร: Pre-Production to Production',
+          'Tips & Tricks จากมือโปร'
+        ],
+        examples: [
+          { type: 'code', text: `🎯 เทคนิคที่ 1: สร้าง "ใบประวัติ" (Character Sheet)
+
+❌ แบบธรรมดา (AI จำไม่ได้):
+"A young man in a studio"
+"A man sitting at desk"
+"Someone working on computer"
+
+✅ แบบมือโปร (AI จำได้แม่น):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHARACTER PROFILE: CHAI
+• Name: Chai (ชัย)
+• Age: 20 years old
+• Ethnicity: Thai
+• Face: Handsome, symmetrical features, warm smile
+• Hair: Short black hair, modern style, slightly styled upward
+• Build: Athletic, 175cm tall
+• Outfit: Black t-shirt with small white logo on chest, 
+  dark blue jeans, white sneakers
+• Accessories: Silver watch on left wrist, thin silver necklace
+• Personality: Confident, friendly, tech-savvy
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 หลักการ: Copy Character Profile นี้ใส่ในทุก Prompt!` },
+          { type: 'code', text: `🏷️ เทคนิคที่ 2: "ตั้งชื่อ" คือเวทมนตร์
+
+การตั้งชื่อทำหน้าที่เหมือน "ตัวแปร" ในการเขียนโปรแกรม:
+
+แทนที่จะเขียนยาวๆ ทุกครั้ง:
+"The 20-year-old Thai man with short black hair wearing 
+black t-shirt and jeans walks into the room"
+
+ใช้แค่นี้:
+"Chai walks into the room"
+
+ตัวอย่างการใช้งาน:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Scene 1: "Chai sits at his gaming desk, excited"
+Scene 2: "Chai picks up the product, examining it"
+Scene 3: "Chai shows the product to camera, smiling"
+Scene 4: "Chai gives thumbs up, still in same outfit"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ AI จะเข้าใจว่าเรากำลังพูดถึง "ชัย" คนเดิม!` },
+          { type: 'code', text: `🏠 เทคนิคที่ 3: ล็อคฉากและเสื้อผ้า
+
+📍 LOCATION CONSISTENCY:
+ใช้คำเหล่านี้ในทุก Prompt:
+• "in the same [location]..."
+• "back in his studio..."
+• "still in the modern office..."
+
+ตัวอย่าง Location Profile:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STUDIO SETTING:
+• Type: Modern gaming/tech review studio
+• Lighting: RGB Nanoleaf panels on dark wall
+• Desk: White minimal desk with LED strips
+• Background: Dark gray acoustic panels
+• Props: Mechanical keyboard, dual monitors
+• Ambiance: Moody blue/purple lighting
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👕 OUTFIT CONSISTENCY:
+• "wearing his signature [outfit]..."
+• "still in the same [clothes]..."
+• "dressed in his usual [description]..."
+
+Pro Tip: สร้าง "Signature Look" ให้ตัวละคร
+เช่น "Chai's signature black t-shirt with logo"` },
+          { type: 'code', text: `🖼️ เทคนิคที่ 4: Image Reference (ท่าไม้ตาย!)
+
+นี่คือวิธีที่ดีที่สุดในการรักษา Consistency:
+
+📸 STEP 1: สร้างภาพต้นแบบ (Master Image)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. ใช้ Midjourney/DALL-E/Stable Diffusion
+2. Prompt: "[Character Profile ทั้งหมด], professional 
+   photography, perfect lighting, high detail"
+3. เลือกภาพที่ดีที่สุด เซฟไว้เป็น Reference
+
+📤 STEP 2: อัปโหลดและอ้างอิง
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+การเขียน Prompt เมื่อมี Reference:
+
+"Using the uploaded reference image as the character:
+Chai (the exact man from the reference) sits at his desk,
+maintaining identical facial features, hairstyle, and outfit
+as shown in the reference image. He smiles at camera."
+
+คำสำคัญที่ต้องใช้:
+• "exact same person from reference"
+• "identical features as uploaded image"
+• "maintaining consistency with reference"
+• "must match the reference character"` },
+          { type: 'code', text: `🎬 Workflow ระดับโปร: Step-by-Step
+
+🎯 PHASE 1: PRE-PRODUCTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Character Design:
+   □ เขียน Character Profile ละเอียด
+   □ สร้าง Master Image ด้วย AI
+   □ เซฟ Reference หลายมุม (ถ้าทำได้)
+
+2. Product/Props:
+   □ ถ่ายภาพสินค้าจริง หรือ
+   □ สร้าง Product Reference ด้วย AI
+   □ เตรียม Multiple Angles
+
+3. Location Setup:
+   □ เขียน Location Description
+   □ สร้าง Background Reference
+   □ กำหนด Lighting Scheme
+
+📹 PHASE 2: PRODUCTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+คลิปที่ 1 (Establishing):
+"[Upload all references]
+Introducing Chai, the 20-year-old Thai tech reviewer
+[Full character description]. He sits in his signature
+gaming studio [Full location description]..."
+
+คลิปที่ 2-N (Continuing):
+"[Upload same references]
+Chai (from reference) continues his review...
+Same studio, same outfit, same lighting..."
+
+🔄 CONSISTENCY CHECKLIST:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ ใช้ชื่อตัวละครทุกครั้ง
+□ อ้างอิง "same/identical" บ่อยๆ
+□ Upload reference ทุกคลิป
+□ ใช้ Character Profile เดิม
+□ ระบุ Location แบบเดิม
+□ เน้นย้ำ Outfit consistency` },
+          { type: 'code', text: `💡 Pro Tips & Advanced Tricks
+
+🎯 NAMING CONVENTION:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Project: TechReview_iPhone15
+├── Char_Chai_Reference_01.jpg
+├── Char_Chai_Reference_02.jpg
+├── Product_iPhone15_Front.jpg
+├── Product_iPhone15_Back.jpg
+├── Studio_Wide_Reference.jpg
+└── Character_Sheet_Chai.txt
+
+🔥 POWER PHRASES สำหรับ Consistency:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• "Maintaining exact continuity from previous scene"
+• "Identical to established character design"
+• "Consistent with all prior appearances"
+• "Preserving character model integrity"
+• "Locked to reference specifications"
+
+⚡ TROUBLESHOOTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ปัญหา: หน้าตาเปลี่ยนไปเล็กน้อย
+แก้ไข: เพิ่ม "facial features MUST be identical"
+
+ปัญหา: เสื้อผ้าไม่เหมือนเดิม
+แก้ไข: "wearing the EXACT SAME outfit as reference"
+
+ปัญหา: ฉากหลังเปลี่ยน
+แก้ไข: "in the IDENTICAL studio setup"
+
+🎪 BONUS TECHNIQUE - Multi-Character:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ถ้ามีหลายตัวละคร ใช้ระบบ ID:
+• Chai (ID: MainHost) - ผู้ดำเนินรายการหลัก
+• Som (ID: Guest01) - แขกรับเชิญ
+• Product (ID: iPhone15Pro) - สินค้าหลัก
+
+Prompt: "Chai (MainHost) hands the iPhone15Pro 
+to Som (Guest01), both maintaining their 
+established character designs"` },
+          { type: 'tip', text: '🎨 สร้าง "Style Guide" เก็บไว้ใน Google Docs พร้อมรูป Reference ทั้งหมด เพื่อให้ทีมใช้ร่วมกันได้' },
+          { type: 'warning', text: '⚠️ อย่าลืม Upload Reference ทุกครั้ง! แม้จะเป็นคลิปต่อเนื่องก็ตาม AI ไม่มี Memory ข้ามคลิป' },
+          { type: 'tools', text: '🔗 Tools แนะนำ: Midjourney (สร้าง Reference), Google Drive (เก็บ Assets), Notion (ทำ Character Bible)' }
+        ]
+      }
+    },
+    {
       id: 'image',
       title: 'Image Generation',
       icon: <Image className="w-5 h-5" />,
